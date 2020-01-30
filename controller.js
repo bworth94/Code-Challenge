@@ -38,7 +38,7 @@ exports.create = function (req, res) {
         res.send()
         message.forEach(function (message) {
             var count = (WordCount(message.message))
-            console.log(count)
+            console.log("count is " + count)
 
         })
     })
