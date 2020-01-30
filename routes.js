@@ -3,5 +3,5 @@ const router = express.Router();
 
 const messageController = require('./controller')
 
-router.post('/message', messageController.create);
+router.post('/', messageController.create);
 module.exports = router;
